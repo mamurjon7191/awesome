@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --width1: 50;
+  --width2: 50;
+}
+.big {
+  display: flex;
+}
+
+.img1 {
+  background-size: cover;
+  width: calc(var(--width1) * 1vw);
+  height: 100vh;
+  transition: 1s all;
+  background-position: center;
+  background-image: url(./img/img-1.jpg);
+}
+.img2 {
+  background-size: cover;
+  transition: 1s all;
+  width: calc(var(--width2) * 1vw);
+  height: 100vh;
+  background-position: center;
+  background-image: url(./img/img-2.jpg);
+}
